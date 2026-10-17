@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0B2239">
+<meta name="description" content="Vande Industries, Badli Delhi — makers of heavy-duty biomass-fired stoves in 10.5, 13.5 and 15.5 inch models for commercial and community cooking. Sustainable, practical industrial products built in India.">
+<meta name="keywords" content="Vande Industries, biomass stove, sustainable solutions, industrial products, eco-friendly solutions, Delhi">
+<meta property="og:title" content="Vande Industries | Biomass Stoves">
+<meta property="og:description" content="Practical, durable, sustainable equipment built in India. Explore the biomass stove range by Vande Industries, Badli, Delhi.">
+<meta property="og:type" content="website">
+<meta name="twitter:card" content="summary_large_image">
+<meta property="og:image" content="images/cleancooking-blog.png">
+<link rel="icon" href="images/logoofvande.png">
+<link rel="apple-touch-icon" href="images/logoofvande.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<title>Vande Industries | Biomass Stoves — Built in India</title>
+
+<style>
+:root{
+  --navy:#0B2239; --navy-deep:#071627; --navy-surface:#10304F; --navy-border:#213D5C; --navy-light:#173F63;
+  --blaze:#F47B20; --blaze-hover:#E06A0F;
+  --slate-200:#e2e8f0; --slate-300:#cbd5e1; --slate-400:#94a3b8; --slate-500:#64748b; --slate-600:#475569; --slate-50:#f8fafc;
+  --fg:#0f172a;
+}
+*,*::before,*::after{box-sizing:border-box;border:0 solid #e5e7eb}
+html{line-height:1.5;-webkit-text-size-adjust:100%;scroll-behavior:smooth}
+body{margin:0;background:#fff;color:var(--fg);font-family:"Plus Jakarta Sans",sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+h1,h2,h3,p,ul,dl,dd{margin:0;padding:0}
+ul{list-style:none}
+a{color:inherit;text-decoration:none}
+img,svg{display:block;max-width:100%}
+button{font:inherit;color:inherit;background:none;cursor:pointer;padding:0}
+::selection{background:var(--blaze);color:#fff}
+:focus-visible{outline:2px solid var(--blaze);outline-offset:3px;border-radius:2px}
+
+.font-heading{font-family:"Space Grotesk",sans-serif}
+.eyebrow{font-family:"JetBrains Mono",monospace;font-size:.75rem;line-height:1rem;font-weight:500;text-transform:uppercase;letter-spacing:.22em;color:var(--blaze)}
+.container-site{margin:0 auto;width:100%;max-width:80rem;padding:0 1.25rem}
+@media(min-width:640px){.container-site{padding:0 2rem}}
+@media(min-width:1024px){.container-site{padding:0 3rem}}
+.grain{position:relative}
+.grain::after{content:"";position:absolute;inset:0;pointer-events:none;opacity:.05;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E")}
+.spotlight{position:absolute;inset:0;background:radial-gradient(ellipse 60% 50% at 70% 30%,rgba(23,63,99,.55),transparent 70%)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap}
+.sr-only:focus{position:absolute;left:1rem;top:1rem;z-index:60;width:auto;height:auto;margin:0;clip:auto;padding:.5rem 1rem;background:var(--blaze);color:#fff;border-radius:.375rem}
+
+/* Reveal animation */
+.reveal{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+.reveal.in{opacity:1;transform:none}
+
+/* Header */
+.site-header{position:fixed;left:0;right:0;top:0;z-index:50;border-bottom:1px solid rgba(33,61,92,.7);background:rgba(11,34,57,.95);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px)}
+.nav{display:flex;height:5rem;align-items:center;justify-content:space-between}
+.logo-link{display:flex;align-items:center;gap:.75rem}
+.logo-circle{display:block;height:3rem;width:3rem;overflow:hidden;border-radius:9999px;background:#fff;box-shadow:0 0 0 1px rgba(255,255,255,.2)}
+.logo-circle img{width:100%;height:100%;object-fit:cover}
+.logo-text{display:none;flex-direction:column;line-height:1.25}
+@media(min-width:640px){.logo-text{display:flex}}
+.logo-text b{font-family:"Space Grotesk",sans-serif;font-size:1.125rem;font-weight:700;letter-spacing:.025em;color:#fff}
+.logo-text span{font-family:"JetBrains Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.35em;color:var(--blaze)}
+.nav-links{display:none;align-items:center;gap:1.75rem}
+@media(min-width:1024px){.nav-links{display:flex}}
+.nav-links a{position:relative;font-size:.875rem;font-weight:500;color:var(--slate-300);transition:color .3s}
+.nav-links a:hover,.nav-links a.active{color:#fff}
+.nav-links a::after{content:"";position:absolute;left:0;bottom:-.375rem;height:2px;width:0;background:var(--blaze);transition:width .3s}
+.nav-links a:hover::after,.nav-links a.active::after{width:100%}
+.nav-right{display:flex;align-items:center;gap:.75rem}
+.btn-enquire{display:none;border-radius:9999px;background:var(--blaze);padding:.625rem 1.5rem;font-size:.875rem;font-weight:600;color:#fff;transition:background .3s}
+.btn-enquire:hover{background:var(--blaze-hover)}
+@media(min-width:1024px){.btn-enquire{display:inline-flex}}
+.menu-toggle{display:inline-flex;height:2.75rem;width:2.75rem;align-items:center;justify-content:center;border-radius:9999px;border:1px solid var(--navy-border);color:#fff}
+@media(min-width:1024px){.menu-toggle{display:none}}
+.mobile-menu{display:none;border-top:1px solid rgba(33,61,92,.7);background:var(--navy)}
+.mobile-menu.open{display:block}
+@media(min-width:1024px){.mobile-menu{display:none!important}}
+.mobile-menu a{display:block;padding:.85rem 0;font-size:.95rem;font-weight:500;color:var(--slate-300);border-bottom:1px solid rgba(33,61,92,.5)}
+.mobile-menu a.active{color:var(--blaze)}
+.mobile-menu .m-cta{margin:1rem 0 1.25rem;text-align:center;border-radius:9999px;background:var(--blaze);color:#fff;border:0;padding:.75rem}
+
+/* Hero */
+.hero{position:relative;overflow:hidden;background:var(--navy-deep);padding:9rem 0 5rem}
+@media(min-width:640px){.hero{padding:11rem 0 6rem}}
+.hero .inner{position:relative;z-index:1}
+.hero h1{margin-top:1rem;font-family:"Space Grotesk",sans-serif;font-size:2.25rem;font-weight:700;line-height:1.08;letter-spacing:-.025em;color:#fff;text-wrap:balance}
+@media(min-width:640px){.hero h1{font-size:3rem}}
+@media(min-width:1024px){.hero h1{font-size:3.75rem}}
+.hero h1 span{display:block;overflow:hidden;padding-bottom:.25rem}
+.hero p.lead{margin-top:1.5rem;max-width:42rem;font-size:1rem;line-height:1.625;color:var(--slate-300)}
+
+/* Stories */
+.stories{background:#fff;padding:5rem 0}
+@media(min-width:640px){.stories{padding:6rem 0}}
+.section-head{max-width:42rem}
+.section-head h2{margin-top:.75rem;font-family:"Space Grotesk",sans-serif;font-size:1.5rem;font-weight:700;letter-spacing:-.025em;color:var(--navy)}
+@media(min-width:640px){.section-head h2{font-size:1.875rem}}
+@media(min-width:1024px){.section-head h2{font-size:2.25rem}}
+.section-head p{margin-top:1rem;font-size:1rem;line-height:1.625;color:var(--slate-600)}
+.stories-grid{margin-top:3rem;display:grid;gap:1.5rem}
+@media(min-width:1024px){.stories-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+.right-col{display:grid;gap:1.5rem;align-content:start}
+.full{height:100%}
+
+.story-main{position:relative;display:flex;height:100%;flex-direction:column;overflow:hidden;border-radius:1rem;background:var(--navy);padding:2rem}
+@media(min-width:640px){.story-main{padding:2.75rem}}
+.story-main .in{position:relative;z-index:1;display:flex;height:100%;flex-direction:column}
+.story-top{display:flex;align-items:center;justify-content:space-between}
+.q-icon{display:flex;height:2.75rem;width:2.75rem;align-items:center;justify-content:center;border-radius:9999px;background:rgba(244,123,32,.15);color:var(--blaze)}
+.badge{border-radius:9999px;border:1px solid rgba(244,123,32,.4);background:rgba(244,123,32,.1);padding:.25rem .75rem;font-family:"JetBrains Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.18em;color:var(--blaze)}
+.story-main h3{margin-top:1.5rem;font-family:"Space Grotesk",sans-serif;font-size:1.5rem;font-weight:700;color:#fff}
+@media(min-width:640px){.story-main h3{font-size:1.875rem}}
+.story-main .txt{margin-top:1rem;flex:1;font-size:1rem;line-height:1.625;color:var(--slate-300)}
+.chips{margin-top:1.5rem;display:flex;flex-wrap:wrap;gap:.5rem}
+.chip{display:inline-flex;align-items:center;gap:.375rem;border-radius:9999px;background:var(--navy-surface);padding:.375rem .875rem;font-size:.75rem;font-weight:500;color:var(--slate-200)}
+.chip svg{color:var(--blaze)}
+.owner{margin-top:1.75rem;display:flex;align-items:center;gap:1rem;border-top:1px solid var(--navy-border);padding-top:1.5rem}
+.avatar{display:flex;height:3rem;width:3rem;flex-shrink:0;align-items:center;justify-content:center;border-radius:9999px;background:var(--blaze);font-family:"Space Grotesk",sans-serif;font-size:.875rem;font-weight:700;color:#fff}
+.owner .name{font-size:.875rem;font-weight:600;color:#fff}
+.owner .biz{margin-top:.125rem;display:flex;align-items:center;gap:.375rem;font-size:.75rem;color:var(--slate-400)}
+.owner .biz .dot{color:#475569}
+.owner .biz svg{color:var(--blaze)}
+
+.slot{display:flex;height:100%;flex-direction:column;border-radius:1rem;border:1px dashed #cbd5e1;background:var(--slate-50);padding:1.75rem}
+.slot-top{display:flex;align-items:baseline;justify-content:space-between}
+.slot-num{font-family:"JetBrains Mono",monospace;font-size:.875rem;color:var(--blaze)}
+.slot-tag{border-radius:9999px;background:#fff;padding:.25rem .75rem;font-size:11px;font-weight:500;text-transform:uppercase;letter-spacing:.05em;color:var(--slate-400);box-shadow:0 0 0 1px var(--slate-200)}
+.slot h3{margin-top:1rem;font-family:"Space Grotesk",sans-serif;font-size:1.25rem;font-weight:600;color:var(--navy)}
+.slot dl{margin-top:1.25rem;flex:1}
+.slot dl>div{border-bottom:1px solid var(--slate-200);padding-bottom:.75rem;margin-bottom:.875rem}
+.slot dl>div:last-child{margin-bottom:0}
+.slot dt{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:.05em;color:var(--slate-400)}
+.slot dd{margin-top:.25rem;font-size:.875rem;font-style:italic;color:var(--slate-500)}
+
+.callout{margin-top:3.5rem;display:flex;flex-direction:column;align-items:flex-start;gap:1.5rem;border-radius:1.5rem;background:var(--navy);padding:2.25rem}
+@media(min-width:640px){.callout{flex-direction:row;align-items:center;justify-content:space-between;padding:2.75rem}}
+.callout .l{display:flex;align-items:flex-start;gap:1.25rem}
+.callout .ic{display:flex;height:3rem;width:3rem;flex-shrink:0;align-items:center;justify-content:center;border-radius:9999px;background:rgba(244,123,32,.15);color:var(--blaze)}
+.callout h2{font-family:"Space Grotesk",sans-serif;font-size:1.25rem;font-weight:700;color:#fff}
+@media(min-width:640px){.callout h2{font-size:1.5rem}}
+.callout p{margin-top:.5rem;max-width:36rem;font-size:.875rem;line-height:1.625;color:var(--slate-300)}
+.btn-share{display:inline-flex;flex-shrink:0;align-items:center;gap:.5rem;border-radius:9999px;background:var(--blaze);padding:.75rem 1.75rem;font-size:.875rem;font-weight:600;color:#fff;transition:background .3s}
+.btn-share:hover{background:var(--blaze-hover)}
+.btn-share svg{transition:transform .3s}
+.btn-share:hover svg{transform:translateX(4px)}
+
+/* CTA */
+.cta{position:relative;overflow:hidden;background:var(--navy-deep)}
+.cta .inner{position:relative;z-index:1;padding:5rem 1.25rem}
+@media(min-width:640px){.cta .inner{padding-top:7rem;padding-bottom:7rem}}
+.cta .box{margin:0 auto;max-width:48rem;text-align:center}
+.cta h2{margin-top:1rem;font-family:"Space Grotesk",sans-serif;font-size:1.875rem;font-weight:700;letter-spacing:-.025em;color:#fff}
+@media(min-width:640px){.cta h2{font-size:2.25rem}}
+@media(min-width:1024px){.cta h2{font-size:3rem}}
+.cta p{margin:1.25rem auto 0;max-width:36rem;font-size:1rem;line-height:1.625;color:var(--slate-300)}
+.cta .btns{margin-top:2.25rem;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem}
+@media(min-width:640px){.cta .btns{flex-direction:row}}
+.cta .btns a{display:inline-flex;width:100%;align-items:center;justify-content:center;gap:.5rem;border-radius:9999px;padding:.875rem 2rem;font-size:.875rem;font-weight:600;color:#fff;transition:all .3s}
+@media(min-width:640px){.cta .btns a{width:auto}}
+.btn-call{background:var(--blaze)}
+.btn-call:hover{background:var(--blaze-hover)}
+.btn-out{border:1px solid var(--slate-500)}
+.btn-out:hover{border-color:var(--blaze);color:var(--blaze)}
+
+/* Footer */
+.site-footer{border-top:1px solid var(--navy-border);background:var(--navy-deep);color:var(--slate-300)}
+.footer-grid{display:grid;gap:3rem;padding-top:4rem;padding-bottom:4rem}
+@media(min-width:768px){.footer-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(min-width:1024px){.footer-grid{grid-template-columns:repeat(4,minmax(0,1fr))}}
+.f-brand{display:flex;align-items:center;gap:.75rem}
+.f-brand .logo-circle{height:3.5rem;width:3.5rem}
+.f-brand .t{display:flex;flex-direction:column;line-height:1.25}
+.f-brand .t b{font-family:"Space Grotesk",sans-serif;font-size:1.25rem;font-weight:700;letter-spacing:.025em;color:#fff}
+.f-brand .t span{font-family:"JetBrains Mono",monospace;font-size:10px;text-transform:uppercase;letter-spacing:.35em;color:var(--blaze)}
+.f-desc{margin-top:1.25rem;max-width:20rem;font-size:.875rem;line-height:1.625;color:var(--slate-400)}
+.site-footer .eyebrow{margin-bottom:1.25rem}
+.socials{display:flex;align-items:center;gap:.75rem}
+.socials a{display:flex;height:2.5rem;width:2.5rem;align-items:center;justify-content:center;border-radius:9999px;border:1px solid var(--navy-border);color:var(--slate-300);transition:all .3s}
+.socials a:hover{transform:translateY(-2px);border-color:var(--blaze);background:var(--blaze);color:#fff}
+.f-links li{margin-bottom:.625rem}
+.f-links a{font-size:.875rem;color:var(--slate-400);transition:color .3s}
+.f-links a:hover{color:var(--blaze)}
+.f-contact{font-size:.875rem}
+.f-contact li{margin-bottom:1rem}
+.f-contact a,.f-contact .addr{display:flex;align-items:flex-start;gap:.75rem;color:var(--slate-400);transition:color .3s}
+.f-contact a:hover{color:var(--blaze)}
+.f-contact svg{margin-top:.125rem;flex-shrink:0;color:var(--blaze)}
+.f-contact .addr b{font-weight:600;color:var(--slate-300)}
+.f-product{display:block;overflow:hidden;border-radius:.75rem;border:1px solid var(--navy-border)}
+.f-product img{width:100%;object-fit:contain;transition:transform .5s}
+.f-product:hover img{transform:scale(1.05)}
+.f-product span{display:block;background:var(--navy-surface);padding:.75rem 1rem;font-family:"Space Grotesk",sans-serif;font-size:.875rem;font-weight:600;color:#fff}
+.f-bottom{border-top:1px solid rgba(33,61,92,.7)}
+.f-bottom .container-site{display:flex;flex-direction:column;align-items:center;justify-content:space-between;gap:.75rem;padding-top:1.5rem;padding-bottom:1.5rem;font-size:.75rem;color:var(--slate-500)}
+@media(min-width:640px){.f-bottom .container-site{flex-direction:row}}
+.f-bottom .loc{font-family:"JetBrains Mono",monospace;text-transform:uppercase;letter-spacing:.2em}
+
+/* WhatsApp */
+.wa{position:fixed;bottom:1.5rem;left:1.5rem;z-index:50;display:flex;height:3.5rem;width:3.5rem;align-items:center;justify-content:center;border-radius:9999px;background:#25D366;color:#fff;box-shadow:0 10px 15px -3px rgba(0,0,0,.25);transition:box-shadow .3s}
+.wa:hover{box-shadow:0 20px 25px -5px rgba(0,0,0,.3)}
+.wa::before{content:"";position:absolute;inset:0;z-index:-1;border-radius:9999px;background:#25D366;opacity:.2;animation:ping 1s cubic-bezier(0,0,.2,1) infinite}
+@keyframes ping{75%,100%{transform:scale(2);opacity:0}}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.wa::before{animation:none}}
+</style>
+</head>
+
+<body>
+<!--
+  IMAGES KE LIYE: neeche "https://YOUR-IMAGE-URL/..." ko apne image URLs se replace kar dein.
+  - logo-cropped.png  → navbar, footer aur favicon mein use hua hai (3 jagah + head mein)
+  - hitt-15.png       → footer ke "Our Product" card mein (aur og:image mein)
+-->
+
+<header class="site-header">
+  <a href="#main-content" class="sr-only">Skip to content</a>
+  <nav class="container-site nav" aria-label="Main navigation">
+    <a href="/" class="logo-link" aria-label="Vande Industries home">
+      <span class="logo-circle"><img src="./images/logoofvande.png" alt="Vande Industries logo"></span>
+      <span class="logo-text"><b>VANDE</b><span>Industries</span></span>
+    </a>
+
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/about.html">About Us</a></li>
+      <li><a href="/products.html">Our Products</a></li>
+      <li><a href="/stories.html" class="active" aria-current="page">Customer Stories</a></li>
+      <li><a href="/blog.html">Blog</a></li>
+      <li><a href="/contact.html">Contact Us</a></li>
+    </ul>
+
+    <div class="nav-right">
+      <a href="/contact.html" class="btn-enquire">Enquire Now</a>
+      <button type="button" class="menu-toggle" id="menuToggle" aria-label="Open menu" aria-expanded="false">
+        <svg id="iconMenu" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 12h16"/><path d="M4 18h16"/><path d="M4 6h16"/></svg>
+        <svg id="iconClose" style="display:none" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+      </button>
+    </div>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <div class="container-site">
+      <a href="/">Home</a>
+      <a href="/about.html">About Us</a>
+      <a href="/products.html">Our Products</a>
+      <a href="/stories.html" class="active">Customer Stories</a>
+      <a href="/blog.html">Blog</a>
+      <a href="/contact.html">Contact Us</a>
+      <a href="/contact.html" class="m-cta">Enquire Now</a>
+    </div>
+  </div>
+</header>
+
+<main id="main-content">
+
+  <!-- HERO -->
+  <section class="hero grain">
+    <div class="spotlight"></div>
+    <div class="container-site inner">
+      <p class="eyebrow">Customer Stories</p>
+      <h1>
+        <span>Real deployments.</span>
+        <span>Honest outcomes.</span>
+      </h1>
+      <p class="lead">Stories from businesses cooking on our stoves every day — the requirement, the solution and the outcome, in the customer's own context.</p>
+    </div>
+  </section>
+
+  <!-- STORIES -->
+  <section class="stories">
+    <div class="container-site">
+      <div class="section-head reveal">
+        <p class="eyebrow">Field Stories</p>
+        <h2>From real kitchens</h2>
+        <p>Every story here comes from an actual deployment, shared with the customer's permission. No invented names, quotes or ratings.</p>
+      </div>
+
+      <div class="stories-grid">
+        <div class="full reveal">
+          <article class="story-main grain">
+            <div class="spotlight"></div>
+            <div class="in">
+              <div class="story-top">
+                <span class="q-icon">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/></svg>
+                </span>
+                <span class="badge">Customer Story</span>
+              </div>
+              <h3>Real Savings for a Local Food Business</h3>
+              <p class="txt">Mr. R. K. Gupta, owner of Momo Wallah in Badli, Delhi, uses our Bharat Bio-Stove for his business. He is happy with the product and reports saving money on cooking fuel since he started using it.</p>
+              <div class="chips">
+                <span class="chip">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+                  Bharat Bio-Stove
+                </span>
+                <span class="chip">Momo &amp; Fast Food Shop</span>
+              </div>
+              <div class="owner">
+                <span class="avatar">RK</span>
+                <div>
+                  <p class="name">Mr. R. K. Gupta</p>
+                  <p class="biz">Momo Wallah <span class="dot">·</span>
+                    <svg xmlns="http://www.w3.org/2000/svg" width="11" height="11" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+                    Badli, Delhi
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <div class="right-col">
+          <div class="full reveal">
+            <article class="slot">
+              <div class="slot-top"><span class="slot-num">01</span><span class="slot-tag">Placeholder</span></div>
+              <h3>Story Awaiting</h3>
+              <dl>
+                <div><dt>Customer / Project</dt><dd>To be added</dd></div>
+                <div><dt>Requirement</dt><dd>To be added</dd></div>
+                <div><dt>Solution</dt><dd>To be added</dd></div>
+                <div><dt>Outcome</dt><dd>To be added</dd></div>
+              </dl>
+            </article>
+          </div>
+          <div class="full reveal">
+            <article class="slot">
+              <div class="slot-top"><span class="slot-num">02</span><span class="slot-tag">Placeholder</span></div>
+              <h3>Story Awaiting</h3>
+              <dl>
+                <div><dt>Customer / Project</dt><dd>To be added</dd></div>
+                <div><dt>Requirement</dt><dd>To be added</dd></div>
+                <div><dt>Solution</dt><dd>To be added</dd></div>
+                <div><dt>Outcome</dt><dd>To be added</dd></div>
+              </dl>
+            </article>
+          </div>
+        </div>
+      </div>
+
+      <div class="reveal">
+        <div class="callout">
+          <div class="l">
+            <span class="ic">
+              <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/><path d="M8 12a2 2 0 0 0 2-2V8H8"/><path d="M14 12a2 2 0 0 0 2-2V8h-2"/></svg>
+            </span>
+            <div>
+              <h2>Using one of our biomass stoves?</h2>
+              <p>We would love to document your experience — your requirement, how the stove fits your work, and what changed after. Reach out and we will feature your story here.</p>
+            </div>
+          </div>
+          <a href="/contact.html" class="btn-share">Share Your Story
+            <svg xmlns="http://www.w3.org/2000/svg" width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FINAL CTA -->
+  <section class="cta grain">
+    <div class="spotlight"></div>
+    <div class="container-site inner" style="max-width:80rem">
+      <div class="box">
+        <div class="reveal">
+          <p class="eyebrow">Get In Touch</p>
+          <h2>Have a Requirement or Enquiry?</h2>
+          <p>Tell us what your kitchen or business needs. Call us directly or send an enquiry and we will get back to you with practical answers.</p>
+        </div>
+        <div class="btns reveal">
+          <a href="tel:8796979076" class="btn-call">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
+            Call Now
+          </a>
+          <a href="/contact.html" class="btn-out">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.536 21.686a.5.5 0 0 0 .937-.024l6.5-19a.496.496 0 0 0-.635-.635l-19 6.5a.5.5 0 0 0-.024.937l7.93 3.18a2 2 0 0 1 1.112 1.11z"/><path d="m21.854 2.147-10.94 10.939"/></svg>
+            Send Enquiry
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="container-site footer-grid">
+    <div>
+      <div class="f-brand">
+        <span class="logo-circle"><img src="./images/logoofvande.png" alt="Vande Industries logo"></span>
+        <span class="t"><b>VANDE</b><span>Industries</span></span>
+      </div>
+      <p class="f-desc">Built in India. Built for a better tomorrow. Practical, durable equipment engineered for real working kitchens.</p>
+      <div style="margin-top:1.5rem">
+        <h3 class="eyebrow">Follow Us</h3>
+        <div class="socials">
+          <a href="https://www.facebook.com/VandeIndustriesofficial" target="_blank" rel="noopener noreferrer" aria-label="Visit VANDE INDUSTRIES on Facebook" title="Visit VANDE INDUSTRIES on Facebook">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://www.instagram.com/bharatbiostove" target="_blank" rel="noopener noreferrer" aria-label="Visit Bharat Bio-Stove on Instagram" title="Visit Bharat Bio-Stove on Instagram">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
+          </a>
+          <a href="https://www.youtube.com/@VandeIndustries" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to VANDE INDUSTRIES on YouTube" title="Subscribe to VANDE INDUSTRIES on YouTube">
+            <svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2.5 17a24.12 24.12 0 0 1 0-10 2 2 0 0 1 1.4-1.4 49.56 49.56 0 0 1 16.2 0A2 2 0 0 1 21.5 7a24.12 24.12 0 0 1 0 10 2 2 0 0 1-1.4 1.4 49.55 49.55 0 0 1-16.2 0A2 2 0 0 1 2.5 17"/><path d="m10 15 5-3-5-3z"/></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <nav aria-label="Footer navigation">
+      <h3 class="eyebrow">Quick Links</h3>
+      <ul class="f-links">
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">About Us</a></li>
+        <li><a href="/products.html">Our Products</a></li>
+        <li><a href="/stories.html">Customer Stories</a></li>
+        <li><a href="/blog.html">Blog</a></li>
+        <li><a href="/contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <div>
+      <h3 class="eyebrow">Contact</h3>
+      <ul class="f-contact">
+        <li>
+          <a href="tel:8796979076">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M13.832 16.568a1 1 0 0 0 1.213-.303l.355-.465A2 2 0 0 1 17 15h3a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2A18 18 0 0 1 2 4a2 2 0 0 1 2-2h3a2 2 0 0 1 2 2v3a2 2 0 0 1-.8 1.6l-.468.351a1 1 0 0 0-.292 1.233 14 14 0 0 0 6.392 6.384"/></svg>
+            +91 87969 79076
+          </a>
+        </li>
+        <li>
+          <a href="mailto:vandeindustriesofficial@gmail.com">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="m22 7-8.991 5.727a2 2 0 0 1-2.009 0L2 7"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg>
+            <span style="min-width:0">vandeindustriesofficial<wbr>@gmail.com</span>
+          </a>
+        </li>
+        <li>
+          <div class="addr">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+            <span><b>Vande Industries</b><br>Ground Floor, Building No. 18, House No. 18, Plot No. 81/11, Badli Road, Near Health Centre, Badli Village, New Delhi, North Delhi, Delhi - 110042, India</span>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <div>
+      <h3 class="eyebrow">Our Product</h3>
+      <a href="/products.html" class="f-product">
+        <img src="./images/cleancooking-blog.png" alt="Biomass Stove by Vande Industries" loading="lazy">
+        <span>Biomass Stoves</span>
+      </a>
+    </div>
+  </div>
+
+  <div class="f-bottom">
+    <div class="container-site">
+      <p>© 2026 Vande Industries. All Rights Reserved.</p>
+      <p class="loc">Badli, Delhi - 110042, India</p>
+    </div>
+  </div>
+</footer>
+
+<!-- WhatsApp floating button -->
+<a href="https://wa.me/918796979076?text=Hello%20Vande%20Industries%2C%20I%20would%20like%20to%20know%20more%20about%20your%20biomass%20stove%20range." target="_blank" rel="noopener noreferrer" class="wa" aria-label="Chat with Vande Industries on WhatsApp">
+  <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" aria-hidden="true"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.52.149-.174.198-.298.297-.497.1-.198.05-.371-.025-.52-.074-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></svg>
+</a>
+
+<script>
+  // Mobile menu toggle
+  (function () {
+    var btn = document.getElementById('menuToggle');
+    var menu = document.getElementById('mobileMenu');
+    var iMenu = document.getElementById('iconMenu');
+    var iClose = document.getElementById('iconClose');
+    function setOpen(open) {
+      menu.classList.toggle('open', open);
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+      btn.setAttribute('aria-label', open ? 'Close menu' : 'Open menu');
+      iMenu.style.display = open ? 'none' : 'block';
+      iClose.style.display = open ? 'block' : 'none';
+    }
+    btn.addEventListener('click', function () { setOpen(!menu.classList.contains('open')); });
+    menu.addEventListener('click', function (e) { if (e.target.tagName === 'A') setOpen(false); });
+    window.addEventListener('resize', function () { if (window.innerWidth >= 1024) setOpen(false); });
+  })();
+
+  // Scroll reveal animation
+  (function () {
+    var els = document.querySelectorAll('.reveal');
+    if (!('IntersectionObserver' in window)) { els.forEach(function (el) { el.classList.add('in'); }); return; }
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (en) {
+        if (en.isIntersecting) { en.target.classList.add('in'); io.unobserve(en.target); }
+      });
+    }, { threshold: 0.12 });
+    els.forEach(function (el) { io.observe(el); });
+  })();
+</script>
+</body>
+</html>
